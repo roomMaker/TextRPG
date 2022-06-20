@@ -88,6 +88,8 @@ private :
 	void Intro()
 	{
 		string playerName , str = "안녕하세요... ";
+		System::PrintSleepText("엔터는 입력 시에만 눌러주세요... 또, 값 을 입력하지 않고 엔터 누르면 버그걸립니다 ㅠ ", 5, 8, 30);
+		Sleep(500);
 		System::PrintSleepText("당신의 이름을 입력하세요 (한글 3, 영문 7자 이내 띄어쓰기 불가) : ", 10, 10, 30);
 		cin >> playerName;
 		player.SetName(playerName);
