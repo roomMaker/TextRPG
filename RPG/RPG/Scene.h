@@ -187,9 +187,9 @@ private :
 		System::SetCursor(35, 3);
 		cout << "---아이템 구매---";
 		System::SetCursor(20, 6);
-		cout << "1. 체력포션 구매 10G";
+		cout << "1. 체력포션 (체력을 25퍼센트 회복한다) 구매 10G";
 		System::SetCursor(20, 8);
-		cout << "2. 마나포션 구매 10G";
+		cout << "2. 마나포션 (마나를 25퍼센트 회복한다) 구매 10G";
 		System::SetCursor(20, 10);
 		cout << "3. 상점으로 돌아간다";
 		System::SetCursor(20, 12);
