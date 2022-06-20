@@ -70,7 +70,7 @@ private :
 		System::SetCursor(40, 12);
 		cout << "2. 종료";
 		System::SetCursor(20, 15);
-		cout << "시작하시려면 1번 종료하시려면 2번을 눌러주세요 : ";
+		cout << "(시연을 위한 크랙 ver)시작하시려면 1번 종료하시려면 2번을 눌러주세요 : ";
 		cin >> _input;
 		if (_input == '1')
 		{

@@ -252,11 +252,11 @@ public :
 	}
 private :
 	int		_input;
-	int		_maxHp = 100;
-	int		_hp = 100;
-	int		_power = 5;
-	int		_maxMp = 100;
-	int		_mp = 100;
+	int		_maxHp = 10000;
+	int		_hp = 10000;
+	int		_power = 50;
+	int		_maxMp = 10000;
+	int		_mp = 10000;
 
 	int		_hpUpgradeCount = 1;
 	int		_mpUpgradeCount = 1;
@@ -265,7 +265,7 @@ private :
 	int		_haveHpPotion = 0;
 	int		_haveMpPotion = 0;
 
-	int		_money = 100;
+	int		_money = 10000;
 	int		_skill;
 	string		_name;
 };
