@@ -1,6 +1,14 @@
-﻿#include <iostream>
+﻿
+#include "GameManager.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    GameManager game;
+
+    game.Init();
+
+    game.Update();
+
+    game.Render();
+    
 }
